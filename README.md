@@ -1,8 +1,8 @@
 # PTCGL Leaderboard & Match History
 
-## [📖 Installation guide →](#installing)
+# [📖 Installation guide →](#installing)
 
-**[⬇ Download the latest version](https://github.com/Jxkobyte/ptcgl-leaderboard/releases/latest)**   ·   **[Source code](https://github.com/Jxkobyte/PtcglLeaderboard)**   ·   Discord: **jakobi_**
+**[Source code](https://github.com/Jxkobyte/PtcglLeaderboard)**   ·   Discord: **jakobi_**
 
 ![Devs not adding basic features to their game. "Fine." "I'll do it myself."](images/meme.png)
 
