@@ -1,12 +1,14 @@
 # PTCGL Leaderboard & Match History
 
+## [📖 Installation guide →](#installing)
+
+**[⬇ Download the latest version](https://github.com/Jxkobyte/ptcgl-leaderboard/releases/latest)**   ·   **[Source code](https://github.com/Jxkobyte/PtcglLeaderboard)**   ·   Discord: **jakobi_**
+
 ![Devs not adding basic features to their game. "Fine." "I'll do it myself."](images/meme.png)
 
 A mod for **Pokémon TCG Live** that adds two things the game should have had from the start: a
 **Match History** of every game you play, and a community **Leaderboard** for the ranked season,
-with the top three on a 3D podium.
-
-**[⬇ Download the latest version](https://github.com/Jxkobyte/ptcgl-leaderboard/releases/latest)**
+with the top three on a 3D podium. Free and open source (MIT).
 
 ![Leaderboard](images/7-leaderboard.png)
 
@@ -32,6 +34,9 @@ Download **`ptcgl-leaderboard-setup.exe`** from the
 The installer isn't code-signed, because a signing certificate costs hundreds of dollars a year.
 So Windows shows a blue **"Windows protected your PC"** box the first time you run it. Click
 **More info**, then **Run anyway**.
+
+The mod is **open source**, so you don't have to take that on trust: every line of it is public
+at [github.com/Jxkobyte/PtcglLeaderboard](https://github.com/Jxkobyte/PtcglLeaderboard).
 
 ![Windows protected your PC: click More info, then Run anyway](images/1-smartscreen.png)
 
@@ -104,8 +109,9 @@ on your computer, in `%LOCALAPPDATA%\PtcglLeaderboard`.
 
 ## Updating
 
-Download the new installer and run it over the top. Your match history and leaderboard spot are
-kept.
+When a new version comes out, the **Leaderboard & Match History** shortcut tells you as you start
+the game (it checks at most once a day). Click **Yes** to open the download page, then run the new
+installer over the top. Your match history and leaderboard spot are kept.
 
 ## Uninstalling
 
@@ -121,12 +127,23 @@ they're still missing, close the game and run the installer again. That always r
 
 **My antivirus flagged the installer.** Some antivirus programs are wary of any unsigned program
 that adds files to a game folder, which is exactly what a mod has to do. It only ever changes files
-inside the Pokémon TCG Live folder and `%LOCALAPPDATA%\PtcglLeaderboard`.
+inside the Pokémon TCG Live folder and `%LOCALAPPDATA%\PtcglLeaderboard`, and it's open source, so
+you (or anyone) can [check exactly what it does](https://github.com/Jxkobyte/PtcglLeaderboard).
 
 **The tabs stopped appearing after a game update.** Close the game and start it from the new
 shortcut. It repairs the install before the game opens.
 
 ---
+
+## Questions, bugs, ideas
+
+Message me on Discord: **jakobi_**
+
+## Licence
+
+The mod is MIT-licensed; its source is at [Jxkobyte/PtcglLeaderboard](https://github.com/Jxkobyte/PtcglLeaderboard). The installer
+also contains BepInEx, Unity Doorstop, HarmonyX, MonoMod and Mono.Cecil, each under its own licence
+- see [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
 
 *Unofficial fan-made mod. Not affiliated with, endorsed by, or connected to The Pokémon Company,
 Nintendo, Creatures or GAME FREAK. Pokémon and Pokémon TCG Live are trademarks of their respective
