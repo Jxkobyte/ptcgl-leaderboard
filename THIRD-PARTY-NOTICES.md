@@ -15,6 +15,9 @@ distributed under its own licence. Their source code is available at the links b
 The LGPL components are used as separate, unmodified libraries; you may replace them with any
 compatible build of your own.
 
+The Mac download (`ptcgl-leaderboard-mac.zip`) contains the same components except Unity Doorstop,
+which macOS doesn't use; it has its own copy of this notice.
+
 PTCGL Leaderboard & Match History itself is MIT-licensed: see `LICENSE`.
 
 *Unofficial fan-made mod. Not affiliated with, endorsed by, or connected to The Pokémon Company,
